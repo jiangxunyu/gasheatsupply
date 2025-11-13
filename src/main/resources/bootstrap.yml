@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: gasheatsupply
+
+  cloud:
+    nacos:
+      server-addr: 10.160.98.115:8848
+      discovery:
+        enabled: false
+      config:
+        server-addr: 10.160.98.115:8848
+        username: effort
+        password: 1qazXDR%
+        namespace: 167ad887-ba66-492e-95f6-8f6ad0a07299
+        file-extension: yaml
+        extension-configs:
+          - data-id: gasheatsupply.yml
+            group: DEFAULT_GROUP
+            refresh: true
