@@ -1,0 +1,20 @@
+2025-10-13 14:13:43.365 [main] INFO  c.c.g.GasheatsupplyApplication - Starting GasheatsupplyApplication using Java 1.8.0_101 on LAPTOP-EV072U81 with PID 26496 (E:\公司项目\gasheatsupply\target\classes started by xunyu in E:\公司项目\gasheatsupply)
+2025-10-13 14:13:43.366 [main] INFO  c.c.g.GasheatsupplyApplication - No active profile set, falling back to default profiles: default
+2025-10-13 14:13:43.973 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'priceInfoMapper' and 'com.chder.gasheatsupply.mapper.PriceInfoMapper' mapperInterface. Bean already defined with the same name!
+2025-10-13 14:13:43.974 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.chder.gasheatsupply.mapper]' package. Please check your configuration.
+2025-10-13 14:13:44.397 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-10-13 14:13:44.405 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-10-13 14:13:44.405 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-13 14:13:44.405 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2025-10-13 14:13:44.514 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-13 14:13:44.515 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1122 ms
+2025-10-13 14:13:45.351 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-10-13 14:13:45.592 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-10-13 14:13:45.667 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-10-13 14:13:45.692 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2025-10-13 14:13:45.704 [main] INFO  c.c.g.GasheatsupplyApplication - Started GasheatsupplyApplication in 2.566 seconds (JVM running for 3.178)
+2025-10-13 14:13:55.485 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-13 14:13:55.486 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-10-13 14:13:55.487 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-10-13 15:23:44.847 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=35m58s601ms135µs300ns).
+2025-10-13 16:18:41.616 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14m26s92ms964µs499ns).
